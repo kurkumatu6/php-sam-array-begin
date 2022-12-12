@@ -59,7 +59,7 @@ $arrSum1 = $arrRange + $arrRandom;
 
 $arrSum2 = array_merge($arrRange, $arrRandom);
 
-array_slice($arrRandom, 1,3);
+array_splice($arrRandom, 2,3);
 echo '<pre>';
 print_r($arrRandom);
 echo '</pre>';
